@@ -1,0 +1,339 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="scrollto,jquery" />
+<meta name="description" content="Helloweba演示平台，演示XHTML、CSS、jquery、PHP案例和示例" />
+<title>微美pad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:801px) and  (max-width: 2000px), only screen and (max-device-width: 801px) and (max-device-width: 2000px)" href="./css/layout.css" />
+<link rel="stylesheet" type="text/css" media="only screen and  (max-width:800px), only screen and (max-device-width: 800px)" href="./css/layout_small.css" />
+<!--[if lt IE 9 & !IEMobile]>
+<link href="./css/layout.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--网页自适应 end-->
+<!--[if lte IE 6]>
+<SCRIPT src="http://www.wenxiu.org/skin/default/js/iepng.js" type="text/javascript"></SCRIPT>
+    <script> 
+    EvPNG.fix('div, ul, img, li, input'); 
+ </script>
+<![endif]-->
+<script type="text/javascript" src="./js/jquery-1.3.2.min.js"></script>  
+<script type="text/javascript" src="./js/jquery.scrollTo-1.4.2-min.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function() {  
+		$('a.link').click(function () {  
+			
+			$.scrollTo($(this).attr('href'),500);
+			$('a.link').removeClass('selected');  
+			$(this).addClass('selected');
+			return false;  
+		});  
+	});</script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div id="main">
+<div id="header"> 
+         <div id="logodiv">
+		 <div id="logo">WEBEAUTY 微美</div> 
+		 <ul id="menunav">
+		 <li><a href="#" class="nav">首页</a></li>
+		 <li><a href="#" class="nav">下载微美</a></li>
+		 <li><a href="#" class="nav">常见问题</a></li>
+		 <li><a href="#" class="nav">关于我们</a></li>
+		 </ul>
+		 </div>
+		 <div class="menudiv">
+         <ul id="menu"> 
+             <li id="menu1"><a href="#box1" class="link">微美pad</a></li> 
+             <li id="menu2"><a href="#box2" class="link">专属软件</a></li> 
+             <li id="menu3"><a href="#box3" class="link">硬件配置</a></li> 
+             <li id="menu4"><a href="#box5" class="link">精美配件</a></li> 
+			 <li id="menu5"><a href="#box6" class="link">温馨提示</a></li> 
+       	 </ul> 
+	   	 </div>
+		 
+<div class="clear"></div>	   
+</div><!-- end header --> 
+<div id="wrapper"> 
+         <ul id="mask"> 
+             <li id="box1" class="box"> 
+                 <a name="box1"></a> 
+                 <div class="content"><div class="inner">
+				 
+				 <div class="title">美容微营销专用平板电脑</div>
+				 <div class="subtitle">专用美容行业量身打造的平板电脑</div>
+				 <div class="detail">强悍的配置和性能，美容微营销的一系列必备工具和软件
+				   让你快速开启你的美容微营销之旅</div>
+				 <div class="buy">
+				 <ul id="moneyul">
+				 <li><span id="money">3G+wifi 1999元</span>
+				 </li>
+				 </ul>
+				 <ul>
+				 <li><a href="#" id="taobaobook"><p>淘宝订购</p></a></li>
+				 <li><a href="#" id="QQbook"><p>QQ订购</p></a></li>
+				 <li><a href="#" id="telphonebook"><p>电话订购</p></a></li>
+				 </ul>
+				 </div>
+				 </div></div> 
+             </li><!-- end box1 --> 
+			 
+             <li id="box2" class="box"> 
+                 <a name="box2"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title titleline"><div>美容专属配置</div></div>
+				 <div class="subtitle">
+				 <ul>
+				 <li class="peizhi1"><a  href="#box21" class="link"><p>微美营销帐号</p></a></li>
+				 <li class="peizhi2"><a  href="#box22" class="link"><p>微美项目手册</p></a></li>
+				 <li class="peizhi3"><a  href="#box23" class="link"><p>微美电子书</p></a></li>
+				 <li class="peizhi4"><a  href="#box26" class="link"><p>微美培训视频</p></a></li>
+				 <li class="peizhi5"><a  href="#box27" class="link"><p>微美店务通</p></a></li>
+				 </ul>
+				 </div>
+				 <div class="detail"><br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 
+				 
+				 
+				 
+				 
+             </li><!-- end box2 --> 
+			 
+             <li id="box21" class="box"> 
+                 <a name="box21"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">微美营销帐号</div>
+				 <div class="subtitle">快速建立 便捷使用 </div>
+				 <div class="detail">微美PAD1内置了微美网 价值980元营销帐号一个，通过微美营销帐号，你可以快速建立自己的专属网站，向潜在美容顾客展示你的店面形象，经营项目，资费标准等信息，并接收网上预约，安排服务<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	
+				 
+				 
+             </li><!-- end box22 --> 
+             <li id="box22" class="box"> 
+                 <a name="box22"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">微美项目册</div>
+				 <div class="subtitle"> 种类齐全 设计精美</div>
+				 <div class="detail"> 微美PAD内置了价值360元美容院常见项目精美设计图册一套，囊括了护肤、养生、SPA、激光纹绣、H化妆等多个类目，你几乎不需要任何修改，就可以通过微美PAD向你的终端顾客展示以上项目，给你的顾客带来前所未有的体验，你还可以深度订制你的专属项目图册，标注你的店名和资费，并印刷成册，全方位向你的顾客展示项目<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	 
+             </li><!-- end box22 -->  
+			 
+             <li id="box23" class="box"> 
+                 <a name="box23"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">微美电子书</div>
+				 <div class="subtitle">美容行业专业书籍</div>
+				 <div class="detail">微美PAD内置了价值360元微美电子书一套，微美电子书汇集了微美学院的专业教材和美容行业实用的营销、管理类书籍，你可以通过微美PAD1随时随地离线阅读，并在一年内免费更新。<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	
+				 
+             </li><!-- end box23 --> 
+
+
+
+             <li id="box24" class="box"> 
+                 <a name="box24"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">微美培训视频</div>
+				 <div class="subtitle">内容丰富 实战性强</div>
+				 <div class="detail">微美PAD 内置了微美学院价值980元视频培训帐号一个，微美学院是美容行业专属培训平台，平台上积累了海量培训视频，涵盖了美容新技术，专业化沟通，店务管理，美容微营销等领域，让你足不出户，就能吸收美容届顶尖培训讲师的课程精华<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 
+             </li><!-- end box24 --> 
+			 
+             <li id="box25" class="box"> 
+                 <a name="box25"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">微美店务通</div>
+				 <div class="subtitle">管客 管钱 管人 管货</div>
+				 <div class="detail">微美PAD1内置了微美店务通价值360元微店版账号一个，微美店务通是广州微美企业管理咨询有限公司专业为美容院开发的一套店务管理软件，凝聚了我们20年IT行业的从业经验和10年对美容行业的深刻理解，充分考虑了美容行业的特性，强调界面的简约和操作简便，突出图表的直观和数据的清晰，无论是管客管货管钱还是管人都能轻松自如，得心应手[注3]<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	
+             </li><!-- end box25 --> 	 
+
+             <li id="box26" class="box"> 
+                 <a name="box26"></a> 
+
+                 <div class="content"><div class="inner">
+				  <div class="title">增值功能</div>
+				 <div class="subtitle">工作娱乐总相宜</div>
+				 <div class="detail">我们为微美PAD1精挑细选了上百个精彩的应用程序 包括通讯社交图像处理 电子笔记 地图导航 视频播放 等待 不仅可以提高工作效率还可以丰富你的业余生活<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	 
+             </li><!-- end box26 -->  
+             <li id="box27" class="box"> 
+                 <a name="box27"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title">贴心的服务与保障</div>
+				 <div class="subtitle"></div>
+				 <div class="detail"> 1、整机保修一年，一周内质量问题无条件退货，一个月内质量问题由我方承当来回运费。<br />2、每周三微美开放日免费培训软硬件操作技能，免费维护，更新优化<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	 
+             </li><!-- end box27 -->  
+			 
+			 <li id="box3" class="box"> 
+                 <a name="box3"></a> 
+                 <div class="content"><div class="inner">
+				 <div class="title titleline"><div>基本配置</div></div>
+				 <div class="subtitle">
+				 <ul>
+				 <li class="yjpeizhi1"><a ><p>3G通话</p></a></li>
+				 <li class="yjpeizhi2"><a ><p>高清四核</p></a></li>
+				 <li class="yjpeizhi3"><a ><p>9吋原装LG IPS屏</p></a></li>
+				 <li class="yjpeizhi4"><a ><p>蓝牙wifi导航</p></a></li>
+				 <li class="yjpeizhi5"><a ><p>高清摄像头</p></a></li>
+				 </ul>
+				 </div>
+				 <div class="detail">4核1.2G CPU 1G内存 16G存储空间 原装ISP显示屏(与苹果ipad mini 同一厂家)， 内置wifi(2G/3G通话)蓝牙功能，无论是上网、打电话、看视频 图片浏览与处理、文档编辑、都具有无与伦比的性能<br />
+				  </div>
+				 <div class="img"></div>
+				 
+				 
+				 </div></div> 
+             </li><!-- end box3 --> 
+             <li id="box4" class="box"> 
+                 <a name="box4"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title titleline"><div>官方汇款帐号</div></div>
+				 <div class="subtitle">  
+
+				 </div>
+				 <div class="detail"> <br />
+				     <br />
+				       <table width="100%" height="492" border="0">
+                      <tr>
+                        <td width="30%">银行名称</td>
+                        <td width="70%">帐号</td>
+                      </tr>
+                      <tr>
+                        <td>工商银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>招商银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>农业银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>建设银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>邮政银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>中国银行</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table>
+				 </div>
+				 <div class="img"></div>
+				 
+				 
+				 </div></div> 
+             </li><!-- end box4 -->
+			<li id="box5" class="box"> 
+                 <a name="box5"></a> 
+                 <div class="content"><div class="inner">
+				  <div class="title titleline"><div>齐全精美的配件</div></div>
+				 <div class="subtitle">  
+					我们为微美PAD 甄选了精美的相关配件，为你的微美PAD保驾护航。（保护皮套，耳机，蓝牙音箱）
+				 </div>
+				 <div class="detail">  <ul>
+				 <li class="peijian1"><a ><p>精致耳机</p></a></li>
+				 <li class="peijian2"><a ><p>高品质皮套</p></a></li>
+				 <li class="peijian3"><a ><p>蓝牙音响</p></a></li>
+				 <li class="peijian4"><a ><p>移动刷卡电源</p></a></li>
+				 </ul>
+
+				 </div>
+				 <div class="img"></div>
+				 
+				 
+				 </div></div> 
+           </li><!-- end box5 -->
+		   <li id="box6" class="box"> 
+                <a name="box6"></a> 
+                <div class="content"><div class="inner">
+				<div class="title titleline"><div>温馨提示</div></div>
+				<div class="subtitle"></div>
+				<div class="detail"> 
+				<ul>
+				<li class="zhujie">[注1]有关唯美网详细资料，桌面电脑访问http://www.webeauty.cc,安卓手机请各大应用市场搜索“微美”，苹果手机请到app store 搜索“微美预约”，或直接通过微信关注“wwbeauty”获得试用帮助</li>
+				<li class="zhujie">[注2]深度定制需另行收费，详情请咨询你的客服专员</li>
+				<li class="zhujie">[注3]微美店务通还在内部测试与封装中，预计2014年3月1日提供</li>
+				</div>
+				 <div class="img"></div>
+				 
+				 </div></div> 	 
+             </li><!-- end box6 -->  
+		   <li class="box"> 
+                <div ></div> 	 
+		   </li>
+
+    </ul>	 
+	 <div class="clear"></div>
+  </div>
+ 		   <div id="footer">
+     
+			</div> 
+
+</div>
+
+<div id="KeFuDiv" class="KeFuDiv">
+<img src="images/callus.png" width="160" height="105" /></div>
+<!--KeFuDiv end-->
+
+<script type="text/javascript" src="./js/online.js"></script>
+
+<script type="text/javascript">
+
+//初始位置
+
+gID("KeFuDiv").style.top = (document.documentElement.clientHeight - gID("KeFuDiv").offsetHeight)*2/5 +"px";
+
+gID("KeFuDiv").style.left = document.documentElement.clientWidth - gID("KeFuDiv").offsetWidth +"px";
+
+//开始滚动
+
+ScrollDiv('KeFuDiv');
+
+</script>
+</body>
+</html>
